@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.model_selection import train_test_split
-
+import plotly.graph_objects as go
 # ------- Utility functions (simplified versions) -------
 
 def zigzag_detector(prices, percent_threshold=0.035):
